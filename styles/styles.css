@@ -1,9 +1,13 @@
             html {
-            font-size: 62.5%;
+                font-size: 62.5%;
             }
             body {
                 margin: 0;
                 background-color: #f7f7f7;
+            }
+            a {
+                text-decoration: none;
+                color: #454545;
             }
             img {
                 max-width: 100%;
@@ -46,7 +50,7 @@
 
             #hero-unit {
                 background: #9abd67;
-                background-image: url(/images/siluet.png);
+                background-image: url(../images/siluet.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: bottom;
@@ -135,7 +139,7 @@
             /* main "content" About Section second article */
 
             #second {
-                background: url(/images/video-home.jpg);
+                background: url(../images/video-home.jpg);
                 height: 26.1rem;
                 background-position: center;
             }
@@ -464,7 +468,7 @@
 
             /* main content Testimonials section */
             #testimonials {
-                background-image: url(/images/testimonials-bkg-small.jpg);
+                background-image: url(../images/testimonials-bkg-small.jpg);
                 height: 56.2rem;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -736,7 +740,7 @@
 @media all and (min-width:524px) {
             /* main "content" About Section second article */
             #second {
-                background: url(/images/video-home-large.png);
+                background: url(../images/video-home-large.png);
                 height: 52.3rem;
                 background-position: center;
             }
@@ -1001,7 +1005,7 @@
                 display: block;
             }
             #testimonials {
-                background-image: url(/images/testimonials-bkg-large.png);
+                background-image: url(../images/testimonials-bkg-large.png);
                 height: 55rem;
                 background-position: center;
                 background-repeat: no-repeat;
